@@ -1,0 +1,21 @@
+{
+    "profiles": [
+        {
+            "name": "aws-account-1",
+            "key": "XXXX",
+            "secret": "ZZZ",
+            "region": "us-east-1",
+            "credential_file": "/Users/mbanton/bin/credential.account1",
+            "ssh_default_key": "default-ssh-keu.pem"
+        },
+        {
+            "name": "aws-account-2",
+            "key": "YYYY",
+            "secret": "KKKKK",
+            "region": "us-east-1",
+            "credential_file": "/Users/mbanton/bin/chaordic/credential.account2",
+            "ssh_default_key": null
+        }
+    ],
+    "default": "aws-account-1"
+}
