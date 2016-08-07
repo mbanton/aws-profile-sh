@@ -48,6 +48,7 @@ export AWS_SECRET_ACCESS_KEY=$3
 export AWS_SSH_KEY_ID=$6
 export AWS_DEFAULT_REGION=$4
 export EC2_REGION=$4
+export AWS_REGION=$4
 export AZ=${4}a
 
 export AWS_PROFILE_IN_USE=$1
