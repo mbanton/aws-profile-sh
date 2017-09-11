@@ -29,7 +29,7 @@ aws-profile-default
 ```
 
 - Then simple use one of this commands in command line:
-````
+```
 aws-profile
 aws-profile-show
 ```
