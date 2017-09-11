@@ -8,7 +8,7 @@ A very simple script to manage multiple aws access keys
 - Copy aws-profile.json.example to $HOME/.aws-profile.json and put your profiles here
 - Create this alias in your .bashrc or .zshrc file
 
-````
+```
 # aws-profile
 aws-profile(){
     create-aws-profile.sh 2> /tmp/create-aws-profile.sh.txt
